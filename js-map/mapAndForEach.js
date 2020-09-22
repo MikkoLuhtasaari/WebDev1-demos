@@ -1,9 +1,11 @@
 const products = require("./products.json");
 
 // Printing products
+// See: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
 products.forEach((product) => console.log(product));
 
 // Getting all the product names
+// See: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
 const productNames = products.map((product) => product.name);
 console.log(productNames);
 
